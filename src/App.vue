@@ -1,9 +1,16 @@
 <template>
-  <h3>I'm a Vue app!</h3>
+  <div>
+    <AppHeader></AppHeader>
+  </div>
 </template>
 
 <script>
+import AppHeader from "./components/AppHeader";
+
 export default {
-  name: "App"
+  name: "App",
+  components: {
+    AppHeader
+  }
 };
 </script>
