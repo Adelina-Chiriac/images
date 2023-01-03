@@ -1,6 +1,7 @@
 import qs from "qs";
+import config from "../config";
 
-const CLIENT_ID = process.env.CLIENT_ID;
+const CLIENT_ID = config.cliendId;
 const ROOT_URL = "https://api.imgur.com";
 
 export default {
